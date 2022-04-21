@@ -1,41 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T15:22:22.843Z" agent="5.0 (Windows)" etag="3XYE5IT6q4Z9frguraH-" version="17.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-21T07:56:14.471Z" agent="5.0 (Windows)" etag="uB0s79AnzO1AtXC9xWMh" version="17.3.0" type="github" pages="2">
   <diagram id="iNyS8jjP5iytRrqQWfrn" name="thread-state">
-    <mxGraphModel dx="466" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-5" value="阻塞状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="489" y="400" width="100" height="40" as="geometry" />
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-5" target="xnKiWxKvvW1BNjy2lwpN-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-6" value="死亡状态" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="244" y="490" width="100" height="40" as="geometry" />
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-5" value="阻塞状态(Blocked)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-6" value="死亡状态(Dead)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#A1A1A1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="610" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xnKiWxKvvW1BNjy2lwpN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;align=center;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-20" target="xnKiWxKvvW1BNjy2lwpN-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="299" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-22" value="执行start()方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-21">
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-22" value="T.start()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-21">
           <mxGeometry x="-0.3556" y="-3" relative="1" as="geometry">
             <mxPoint x="3" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-20" value="新建状态" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="239" y="170" width="110" height="40" as="geometry" />
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-20" value="新建状态（new）" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#000000;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="239" y="120" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-23" target="xnKiWxKvvW1BNjy2lwpN-25">
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;exitX=0.818;exitY=1.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="294" y="470" as="targetPoint" />
+            <mxPoint x="330" y="487" as="targetPoint" />
+            <mxPoint x="320" y="310" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-28" value="执行run()方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-27">
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-28" value="OS选中，&lt;br&gt;此线程获取CPU时间片，&lt;br&gt;执行run()方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-27">
           <mxGeometry x="-0.3692" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="61" y="29" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-23" value="就绪状态" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="239" y="300" width="110" height="40" as="geometry" />
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-23" value="就绪状态(Runnable)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="239" y="260" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xnKiWxKvvW1BNjy2lwpN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-25" target="xnKiWxKvvW1BNjy2lwpN-6">
           <mxGeometry relative="1" as="geometry">
@@ -47,8 +51,76 @@
             <mxPoint y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xnKiWxKvvW1BNjy2lwpN-25" value="运行状态" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="239" y="400" width="110" height="40" as="geometry" />
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-25" target="xnKiWxKvvW1BNjy2lwpN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-25" target="xnKiWxKvvW1BNjy2lwpN-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="510" />
+              <mxPoint x="130" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-44" value="线程调用O.wait()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-43">
+          <mxGeometry x="-0.7361" y="-1" relative="1" as="geometry">
+            <mxPoint x="-59" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-25" target="xnKiWxKvvW1BNjy2lwpN-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-48" value="看到对象上的&lt;br&gt;synchronized方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-47">
+          <mxGeometry x="0.4889" relative="1" as="geometry">
+            <mxPoint x="42" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.155;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.173;exitY=-0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-25" target="xnKiWxKvvW1BNjy2lwpN-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-53" value="&lt;div align=&quot;left&quot;&gt;1：时间片用完&lt;br&gt;2：T.yield()&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-52">
+          <mxGeometry x="0.3617" relative="1" as="geometry">
+            <mxPoint x="-57" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-25" value="运行状态(Running)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#00A800;" vertex="1" parent="1">
+          <mxGeometry x="239" y="490" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-32" value="就绪状态的线程处于就绪队列中，等待JVM里线程调度器的调度" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="440" y="170" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="350" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-38" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;等待阻塞&lt;/b&gt;：运行中的线程执行wait()方法，使线程进入到等待阻塞状态。&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;同步阻塞&lt;/b&gt;：线程在获取synchronized同步锁失败(同步锁被其他线程占用)。&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;其他阻塞&lt;/b&gt;：通过调用线程的sleep()或join()发出了I/O请求时，线程会进入到阻塞状态。当sleep()状态超时,join()等待线程终止或超时，或者I/O处理完毕，线程重新转入就绪状态。&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;" vertex="1" parent="1">
+          <mxGeometry x="700" y="277.5" width="490" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-39" target="xnKiWxKvvW1BNjy2lwpN-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-39" value="等待队列" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xnKiWxKvvW1BNjy2lwpN-40" target="xnKiWxKvvW1BNjy2lwpN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-50" value="拿到对象的锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xnKiWxKvvW1BNjy2lwpN-49">
+          <mxGeometry x="-0.2483" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-40" value="锁池队列" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xnKiWxKvvW1BNjy2lwpN-46" value="其他线程调用&lt;br&gt;O.notify(),&lt;br&gt;O.notifyAll()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="320" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
