@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T09:47:40.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="VQ685bjoOXYYbF3yWEtb" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T10:16:40.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="j6u__TZ4SLGxHcutbaXR" version="20.2.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
           <mxGeometry x="560" y="600" width="95" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XxIILgXj8EMPHM-rxq7w-4" value="流程定义" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="800" width="140" height="104" as="geometry" />
+          <mxGeometry x="40" y="770" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="XxIILgXj8EMPHM-rxq7w-5" value="主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-4">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -66,7 +66,7 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XxIILgXj8EMPHM-rxq7w-10" value="流程节点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="800" width="140" height="104" as="geometry" />
+          <mxGeometry x="410" y="800" width="140" height="182" as="geometry" />
         </mxCell>
         <mxCell id="XxIILgXj8EMPHM-rxq7w-11" value="主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-10">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -76,6 +76,30 @@
         </mxCell>
         <mxCell id="XxIILgXj8EMPHM-rxq7w-13" value="类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-10">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-14" value="上一节点主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-10">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-15" value="下一节点主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-10">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-16" value="类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-10">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-17" value="流程节点拓展信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="800" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-18" value="主键" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-17">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-19" value="完成条件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-17">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-20" value="待办人员类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-17">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XxIILgXj8EMPHM-rxq7w-21" value="extend" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XxIILgXj8EMPHM-rxq7w-17">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
